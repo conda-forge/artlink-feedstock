@@ -1,8 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.0"
-  python_min: "3.11"
+  version: "0.2.0"
 
 package:
   name: artlink
@@ -10,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/artlink/artlink-${{ version }}.tar.gz
-  sha256: f8d780bda6803a4ce71a04e51c138347234d0931b1340347826d782303753b03
+  sha256: 562bc5374495212d82a12768cf17cfb01a0c672e9dfd30b944df99c1e09a96b1
 
 build:
   number: 0
